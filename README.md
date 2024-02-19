@@ -1,1 +1,15 @@
 # Posture-Detection-using-Embedded-Machine-Learning
+
+Problem Statement: The objective of this project was to enhance the understanding of an individual's sleeping posture. This entails accurately identifying and classifying the various postures assumed during sleep, which is crucial for applications related to health monitoring and improvement of sleep quality.
+
+Objective: The primary goal was to develop a reliable posture detection system capable of classifying individual sleeping postures into four distinct categories. This system aimed to leverage embedded machine learning techniques for real-time data analysis and posture classification.
+
+Implementation: To achieve the objective, an Arduino Nano board equipped with an Inertial Measurement Unit (IMU) was utilized for data collection. The IMU sensor gathered comprehensive accelerometer and gyroscope data, which was essential for identifying different sleeping postures. This raw data served as the input for a feedforward neural network, designed to classify the postures accurately.
+
+Challenges Faced: The primary challenges encountered during the project included the effective collection and processing of IMU data, ensuring the accuracy and reliability of the posture classification, and optimizing the feedforward neural network for real-time analysis on a laptop.
+
+Solution: To address these challenges, a systematic approach was adopted. The Arduino Nano's IMU unit was programmed to continuously capture high-quality accelerometer and gyrometer data. Subsequently, this data was processed and analyzed using a custom-built feedforward neural network model. The TensorFlow library, renowned for its extensive machine learning capabilities, was employed to facilitate the development and implementation of the neural network on a laptop, ensuring efficient data processing and classification.
+
+Results: The implementation of the described system resulted in a robust posture detection framework capable of accurately classifying sleeping postures into four predefined categories. The system demonstrated high reliability and effectiveness in real-time posture classification, leveraging the power of embedded machine learning and the TensorFlow library. This project lays the groundwork for future advancements in health monitoring and sleep improvement technologies, showcasing the potential of embedded machine learning in practical applications.
+
+Conclusion: In conclusion, this project effectively developed a sleeping posture detection system using embedded machine learning, demonstrating high accuracy in classifying sleep postures in real-time. Overcoming challenges in data handling and neural network optimization, the system, powered by an Arduino Nano and TensorFlow, marks a significant step towards advanced health monitoring and sleep improvement technologies. This work paves the way for future innovations in the field, highlighting the practical applications of embedded machine learning in health-related areas.
